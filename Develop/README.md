@@ -60,9 +60,8 @@ You can see a demo of this project by [clicking here](https://www.example.com/de
 
 ### Video
 
-[![Project Video](https://img.youtube.com/vi/3g8RTqEhvZc/0.jpg)](https://www.youtube.com/watch?v=3g8RTqEhvZc)
-
-
+[Project Video Link](https://youtu.be/3g8RTqEhvZc)
+![Demo](../ezgif.com-video-to-gif.gif)
 
 ### Heroku
 
