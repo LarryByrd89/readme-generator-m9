@@ -49,7 +49,7 @@ ${data.description}
 - [License](#license)
 - [Features](#features)
 - [How to Contribute](#how-to-contribute)
-- [Credits](#credits)
+- [References](#references)
 
 ## Installation
 To run this project, follow these steps:
@@ -91,9 +91,11 @@ For more details, see the [${data.license} License](${renderLicenseLink(data.lic
 ## How to Contribute
 If you'd like to contribute to this project, please follow me on [GitHub](https://github.com/${data.github}).
 
-## Credits
-- [${data.author}](https://github.com/${data.github}) - Project Developer
+## References
+Please add any references or citations related to your project in this section. If you have online references, you can include them as links using the following format:
 
+- [Reference Name 1](https://www.example.com/reference1)
+- [Reference Name 2](https://www.example.com/reference2)
 
 `;
 }
