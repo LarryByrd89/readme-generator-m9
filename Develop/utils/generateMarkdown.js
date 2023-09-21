@@ -38,95 +38,61 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `
-# ${data.title}
+  return `# ${data.title}
 
 ## Description
-
 ${data.description}
 
 ## Table of Contents
-
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
+- [Features](#features)
+- [How to Contribute](#how-to-contribute)
+- [Credits](#credits)
 
 ## Installation
-
 To run this project, follow these steps:
 
-1. Clone this repository to your local machine.
+1. Clone this repository to your local machine:
    \`\`\`
    git clone ${data.repoURL}
    \`\`\`
 
-2. Navigate to the project's directory.
+2. Navigate to the project's directory:
    \`\`\`
    cd ${data.directory}
    \`\`\`
 
-3. Install the required dependencies.
+3. Install the required dependencies:
    \`\`\`
    npm install
    \`\`\`
 
-4. Start the application.
+4. Start the application:
    \`\`\`
    npm start
    \`\`\`
 
 ## Usage
-
+This section should help users understand how to interact with your project, what it does, and how they can benefit from it.
 ${data.usage}
 
-![Screenshot Placeholder](assets/images/screenshot.png)
-
-## Credits
-
-- [${data.author}](https://github.com/${data.github}) - Project Developer
-
-Third-party assets 
-
 ## License
-
 ${renderLicenseBadge(data.license)}
 
 ${renderLicenseSection(data.license)}
 
-For more details, see the ${renderLicenseLink(data.license)}.
-
-## Badges
-
-![GitHub language count](https://img.shields.io/github/languages/count/${data.github}/${data.repo})
-![GitHub top language](https://img.shields.io/github/languages/top/${data.github}/${data.repo})
+For more details, see the [${data.license} License](${renderLicenseLink(data.license)}).
 
 ## Features
-
-
+- Add a feature here // You can list your project's features as bullet points
 
 ## How to Contribute
+If you'd like to contribute to this project, please follow me on [GitHub](https://github.com/${data.github}).
 
-If you'd like to contribute to this project, please follow me on [GitHub](https://github.com/LarryByrd89/readme-generator-m9).
-
-## Tests
-
-
-\`\`\`
-npm test
-\`\`\`
-
-\`\`\`
-npm run test:coverage
-\`\`\`
-
-\`\`\`
-npm run lint
-\`\`\`
-
-\`\`\`
-npm run lint:fix
-\`\`\`
+## Credits
+- [${data.author}](https://github.com/${data.github}) - Project Developer
 
 
 `;
