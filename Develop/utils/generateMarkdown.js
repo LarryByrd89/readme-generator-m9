@@ -48,6 +48,7 @@ ${data.description}
 - [Usage](#usage)
 - [License](#license)
 - [Features](#features)
+- [Demo](#demo)
 - [How to Contribute](#how-to-contribute)
 - [References](#references)
 
@@ -64,14 +65,14 @@ To run this project, follow these steps:
    cd ${data.directory}
    \`\`\`
 
-3. Install the required dependencies:
+3. Install the required dependencies in package.json terminal:
    \`\`\`
    npm install
    \`\`\`
 
-4. Start the application:
+4. Start the application by directing to index.js terminal:
    \`\`\`
-   npm start
+   node index.js
    \`\`\`
 
 ## Usage
@@ -86,7 +87,29 @@ ${renderLicenseSection(data.license)}
 For more details, see the [${data.license} License](${renderLicenseLink(data.license)}).
 
 ## Features
+
 - Add a feature here // You can list your project's features as bullet points
+
+## Demo
+
+You can view a demo of the project here:
+
+### Live Page
+
+You can see a demo of this project by [clicking here](https://www.example.com/demo).
+
+### Video
+
+[![Project Video](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+
+### Heroku
+
+You can access the live project on Heroku by [clicking here](https://your-heroku-app-url.herokuapp.com/).
+
+### Screenshots
+
+![Screenshot 1](assets/images/screenshot1.png)
+![Screenshot 2](assets/images/screenshot2.png)
 
 ## How to Contribute
 If you'd like to contribute to this project, please follow these guidelines:

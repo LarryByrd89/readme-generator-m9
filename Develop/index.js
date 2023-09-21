@@ -16,16 +16,6 @@ const questions = [
       message: 'Provide a short description of your project:',
     },
     {
-      type: 'input',
-      name: 'installation',
-      message: 'What are the steps required to install your project?',
-    },
-    {
-      type: 'input',
-      name: 'usage',
-      message: 'Provide instructions and examples for using your project:',
-    },
-    {
       type: 'list',
       name: 'license',
       message: 'What kind of license does your project have?',
@@ -46,11 +36,6 @@ const questions = [
       type: 'input',
       name: 'email',
       message: 'What is your email address?',
-    },
-    {
-      type: 'input',
-      name: 'how-to-contribute',
-      message: 'What should other developers know about contributing to your project?',
     },
     {
       type: 'input',
