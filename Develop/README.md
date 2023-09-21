@@ -44,7 +44,7 @@ undefined
 
 This project is licensed under the MIT.
 
-For more details, see the [MIT License]([MIT License](https://opensource.org/licenses/MIT)).
+For more details, see the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Features
 
