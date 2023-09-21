@@ -49,7 +49,7 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'contributing',
+      name: 'how-to-contribute',
       message: 'What should other developers know about contributing to your project?',
     },
     {

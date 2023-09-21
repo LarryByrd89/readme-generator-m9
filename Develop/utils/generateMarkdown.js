@@ -89,7 +89,15 @@ For more details, see the [${data.license} License](${renderLicenseLink(data.lic
 - Add a feature here // You can list your project's features as bullet points
 
 ## How to Contribute
-If you'd like to contribute to this project, please follow me on [GitHub](https://github.com/${data.github}).
+If you'd like to contribute to this project, please follow these guidelines:
+
+1. Fork the project on GitHub.
+2. Clone the project to your local machine.
+3. Create a new branch.
+4. Make your changes, commit them, and push them to your forked repository.
+5. Create a pull request on the original repository, describing your changes and providing any necessary context.
+
+If you have any questions or suggestions, you can reach out to me at ${data.email}.
 
 ## References
 Please add any references or citations related to your project in this section. If you have online references, you can include them as links using the following format:
